@@ -5,13 +5,14 @@
   "type": "module",
   "homepage": "https://github.com/Hemanth220524/reactcicd.git",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "test": "echo \"No test specified\" && exit 0"
+},
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
